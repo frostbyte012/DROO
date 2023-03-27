@@ -29,7 +29,8 @@
 import scipy.io as sio                     # import scipy.io for .mat file I/
 import numpy as np                         # import numpy
 
-from memory import MemoryDNN
+from memoryTF2 import MemoryDNN
+
 from optimization import bisection
 
 import time
